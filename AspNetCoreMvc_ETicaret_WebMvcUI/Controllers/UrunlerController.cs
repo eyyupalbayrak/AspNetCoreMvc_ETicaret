@@ -60,6 +60,6 @@ namespace AspNetCoreMvc_ETicaret_WebMvcUI.Controllers
             await _commentService.Add(model);
             return RedirectToAction("Index");
         }
-        
+
     }
 }

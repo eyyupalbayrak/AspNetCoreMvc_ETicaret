@@ -22,6 +22,7 @@ namespace AspNetCoreMvc_ETicaret_Entity.ViewModels
         public string ContentImage3 { get; set; }
         public string ContentImage4 { get; set; }
         public int CategoryId { get; set; }
+        public string FullText { get; set; }
         public Categories Category { get; set; }
     }
 }
